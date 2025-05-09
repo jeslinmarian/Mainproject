@@ -11,8 +11,9 @@
           <include name="Paymentpagefunction"/>
           <include name="Productdetailspagefunction"/>
           <include name="setup"/>
-          <include name="homepagefunction"/>
+          <include name="loginfunction"/>
           <include name="Cartpagefunction"/>
+          <include name="homepagefunction"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- mainproject.Mainproject_test -->

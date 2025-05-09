@@ -26,10 +26,14 @@ public class Homepage {
         PageFactory.initElements(driver, this);
     }
 
-    public void navigateToTShirts() {
+    public String navigateToTShirts() {
+    	    	
+      	
     	js.executeScript("window.scrollBy(0,400)");
         menDropdown.click();
         wait.until(ExpectedConditions.visibilityOf(tshirtLink));
         tshirtLink.click();
+        
+        return driver.getTitle();
     }
 }
